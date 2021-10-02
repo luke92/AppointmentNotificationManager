@@ -52,7 +52,7 @@ namespace AppointmentNotificationManager
             {
                 appointment.RecurrenceData = ReadRecurrenceData((item[Appointment.RECURRENCE_DATA] ?? "").ToString());
             }
-            appointment.Sequence = (int)double.Parse((item[Appointment.SEQUENCE] ?? 0).ToString());
+            //appointment.Sequence = (int)double.Parse((item[Appointment.SEQUENCE] ?? 0).ToString());
             appointment.StampDate = DateTime.Now;
             appointment.StartDate = Convert.ToDateTime(item[Appointment.START_DATE].ToString());
 

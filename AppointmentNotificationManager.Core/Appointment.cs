@@ -34,7 +34,7 @@ namespace AppointmentNotificationManager
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public DateTime StampDate { get; set; }
-        public int Sequence { get; set; }
+        public string Sequence { get; set; }
         public AppointmentUser Organizer { get; set; }
         public AppointmentRecurrence RecurrenceData { get; set; }
         public List<AppointmentUser> Attendees { get; set; }
@@ -50,7 +50,7 @@ namespace AppointmentNotificationManager
 
         public Appointment()
         {
-            Sequence = 0;
+            //Sequence = 0;
             Id = Guid.NewGuid().ToString("N");
             Attendees = new List<AppointmentUser>();
         }

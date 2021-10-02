@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentNotificationManager", "AppointmentNotificationManager.csproj", "{F3E9B57E-C4EE-4A73-91FD-CC309E98D04B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentNotificationManager.Core", "AppointmentNotificationManager.Core\AppointmentNotificationManager.Core.csproj", "{F3E9B57E-C4EE-4A73-91FD-CC309E98D04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.ConsoleApp", "Appointment.ConsoleApp\Appointment.ConsoleApp.csproj", "{BE4634FF-A992-4210-A0AE-2B0ADBB75148}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{F3E9B57E-C4EE-4A73-91FD-CC309E98D04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E9B57E-C4EE-4A73-91FD-CC309E98D04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E9B57E-C4EE-4A73-91FD-CC309E98D04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4634FF-A992-4210-A0AE-2B0ADBB75148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4634FF-A992-4210-A0AE-2B0ADBB75148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4634FF-A992-4210-A0AE-2B0ADBB75148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4634FF-A992-4210-A0AE-2B0ADBB75148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A795263-303A-4E82-9683-B8A68C6F0A22}
 	EndGlobalSection
 EndGlobal

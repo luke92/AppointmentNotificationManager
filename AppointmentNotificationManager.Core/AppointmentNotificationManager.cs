@@ -26,13 +26,13 @@ namespace AppointmentNotificationManager
         public string GetICS(Appointment appointment, NotificationMethodType method)
         {
             string methodIcs = "REQUEST";
-            int sequence = appointment.Sequence;
+            var sequence = appointment.Sequence;
             switch (method)
             {
                 case NotificationMethodType.Create:
                     break;
                 case NotificationMethodType.Update:
-                    sequence = appointment.Sequence + 1;
+                    //sequence = appointment.Sequence + 1;
                     break;
                 case NotificationMethodType.Delete:
                     methodIcs = "CANCEL";
