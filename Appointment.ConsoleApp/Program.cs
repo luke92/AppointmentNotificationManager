@@ -39,7 +39,7 @@ namespace AppointmentNotificationManager.ConsoleApp
                 },
                 Subject = "ICS SUBJECT TEST",
                 StampDate = now,
-                Sequence = now.ToString("yyMMddHHmm")
+                Sequence = now.ToString("MMddHHmm")
                 //EventType = 1
                 //RecurrenceData = null,       
             }, NotificationMethodType.Update);
